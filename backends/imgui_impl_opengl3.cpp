@@ -192,6 +192,7 @@
 #define glGenVertexArrays       glGenVertexArraysOES
 #define glDeleteVertexArrays    glDeleteVertexArraysOES
 #define GL_VERTEX_ARRAY_BINDING GL_VERTEX_ARRAY_BINDING_OES
+#define IMGUI_IMPL_NO_WINDOW_FUNCTIONS
 #endif
 
 // Desktop GL 2.0+ has extension and glPolygonMode() which GL ES and WebGL don't have..
